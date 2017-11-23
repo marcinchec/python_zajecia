@@ -16,4 +16,4 @@ for el in els:
         category = el1.getElementsByTagName("category")
         for x in range(len(category)):
             wynik= category[x].firstChild.data
-            print ("%s") %(wynik)
+            print ("kategoria: %s") %(wynik)
